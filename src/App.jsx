@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import HooksExample from "./components/hook-example";
 import DataFetcher from "./components/hook-example2";
+import Toggle from "./components/hook-example3";
 
 function App() {
   // EXAMPLE FOR useState()
@@ -40,6 +41,9 @@ function App() {
       <br />
       <br />
       <DataFetcher />
+      <br />
+      <br />
+      <Toggle />
     </>
   );
 }

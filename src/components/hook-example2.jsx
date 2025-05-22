@@ -10,7 +10,7 @@ const DataFetcher = () => {
   }, []);
   return (
     <div>
-      <h1>post</h1>
+      <h1>posts</h1>
       <ul>
         {data.map((post) => (
           <li key={post.id}>{post.title}</li>
